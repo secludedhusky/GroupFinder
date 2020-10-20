@@ -1,0 +1,1 @@
+py -3.8 -m py2exe.build_exe groupgame.py
