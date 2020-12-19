@@ -59,7 +59,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -112,9 +111,29 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+**To update to newer ROBLOX API**
+```py
+    def group(self):
+        group = requests.get(f'https://groups.roblox.com/v1/groups/{self.groupID}', proxies=proxydict)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+    def games(self):
+        games = requests.get(f'https://games.roblox.com/v2/groups/{self.groupID}/games?accessFilter=All&sortOrder=Asc&limit=100', proxies=proxydict)
+
+    def get_universal_id(self,placeID):
+        a = requests.get(f'https://api.roblox.com/universes/get-universe-containing-place?placeid={placeID}', proxies=proxydict)
+
+    def get_favorites(self):
+        a = requests.get(f'https://games.roblox.com/v1/games/{self.universal_id}/favorites/count', proxies=proxydict)
+
+    def get_votes(self):
+        a = requests.get(f'https://games.roblox.com/v1/games/votes?universeIds={self.universal_id}', proxies=proxydict)
+
+    def get_visits(self):
+        a = requests.get(f'https://games.roblox.com/v1/games?universeIds={self.universal_id}', proxies=proxydict)
+```
+Change the above values replacing the request URLs with the new API version, carefull to leave the self values in their proper locations to maintain code syntax.
+
+_For more information, please refer to the [Documentation](https://caseymediallc.com/groupfinder)_
 
 
 
@@ -141,7 +160,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the GNU General Public License. See `LICENSE` for more information.
 
 
 
@@ -151,16 +170,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Casey Maxwell - [@HyenaLtd](https://twitter.com/HyenaLtd) - admin@doggidada.space
 
 Project Link: [https://github.com/CaseyK9/GroupFinder](https://github.com/CaseyK9/GroupFinder)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
 
 
 
