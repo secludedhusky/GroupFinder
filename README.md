@@ -101,7 +101,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    pip install requests
    ```
-3. Configure proxies in (`proxies.ini`)
+3. Configure proxies in `proxies.ini`
 4. Run program
     ```sh
     py groupgame.py
