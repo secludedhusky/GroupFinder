@@ -76,9 +76,6 @@ ROBLOX Group Finder designed for finding unowned groups with games using ROBLOX'
 ### Built With
 
 * [Python](https://www.python.org/)
-* []()
-* []()
-
 
 
 <!-- GETTING STARTED -->
@@ -91,7 +88,7 @@ To get a local copy up and running follow these simple steps.
 This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
-  npm install npm@latest -g
+  pip install requests
   ```
 
 ### Installation
@@ -102,8 +99,13 @@ This is an example of how to list things you need to use the software and how to
    ```
 2. Install NPM packages
    ```sh
-   npm install
+   pip install requests
    ```
+3. Configure proxies in (`proxies.ini`)
+4. Run program
+    ```sh
+    py groupgame.py
+    ```
 
 
 
