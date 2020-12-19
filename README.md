@@ -177,6 +177,7 @@ Project Link: [https://github.com/CaseyK9/GroupFinder](https://github.com/CaseyK
 [issues-url]: https://github.com/CaseyK9/GroupFinder/issues
 [license-shield]: https://img.shields.io/github/license/CaseyK9/GroupFinder.svg?style=for-the-badge
 [license-url]: https://github.com/CaseyK9/GroupFinder/blob/master/LICENSE.txt
+[product-screenshot]: https://nafc.link/images/951cf3a3.png
 
 [ENG]
 Requirements:
