@@ -70,14 +70,12 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://nafc.link/images/951cf3a3.png)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+ROBLOX Group Finder designed for finding unowned groups with games using ROBLOX's API. Due to ROBLOX's limiting of API requests, I have chosen to open source this to allow for the community to edit and continue to provide support for this. I have branched off from ROBLOX which makes this a useless program to me, but some people may find use for this. Since ROBLOX has made it so that you no longer have to pay for Premium/Builder's Club in order to claim unowned groups, this will be a very useful contribution to the community.
 
 
 ### Built With
 
-* []()
+* [Python](https://www.python.org/)
 * []()
 * []()
 
