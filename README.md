@@ -144,13 +144,11 @@ Change the above values to your destination and the script you'd like to compile
 **To add proxies**
 1. Open proxies.ini
 2. ```sh
-git clone https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt
-```
+git clone https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt```
 3. Open `proxy-list-raw.txt` and copy all content.
 4. Paste all content from `proxy-list-raw.txt` into `proxies.ini`
 5. ```sh
-py groupgame.py
-```
+py groupgame.py```
 
 _For more information, please refer to the [Documentation](https://caseymediallc.com/groupfinder)_
 
