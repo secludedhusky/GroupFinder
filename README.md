@@ -133,6 +133,25 @@ This is an example of how to list things you need to use the software and how to
 ```
 Change the above values replacing the request URLs with the new API version, carefull to leave the self values in their proper locations to maintain code syntax.
 
+**To compile source code into binary**
+```sh
+pip install requirements.txt
+py build_exe.py groupgame.py --dest=%UserProfile%
+cd /d %UserProfile%
+```
+Change the above values to your destination and the script you'd like to compile. Executable will be named the same name as the python file.
+
+**To add proxies**
+1. Open proxies.ini
+2. ```sh
+git clone https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt
+```
+3. Open `proxy-list-raw.txt` and copy all content.
+4. Paste all content from `proxy-list-raw.txt` into `proxies.ini`
+5. ```sh
+py groupgame.py
+```
+
 _For more information, please refer to the [Documentation](https://caseymediallc.com/groupfinder)_
 
 
